@@ -12,16 +12,4 @@ class InputUser {
             }
         }
     }
-    fun ReadStringFromUser(mensagem: String): String {
-        while (true) {
-            print(mensagem)
-            val entrada = readlnOrNull()
-
-            try {
-                return entrada ?: throw IllegalArgumentException()
-            } catch (e: NumberFormatException) {
-                println("Entrada inválida. Por favor, digite um número válido.")
-            }
-        }
-    }
 }
