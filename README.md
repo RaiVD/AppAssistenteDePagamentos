@@ -35,4 +35,4 @@ Siga as etapas abaixo para começar:
 
 ---
 
-E lembre-se... Se as dúvidas para escolher um nome persistirem, esse sorteador deverá ser consultado!
+E lembre-se... Se as dúvidas para escolher um nome persistirem, esse sorteador deverá ser consultado!😉
