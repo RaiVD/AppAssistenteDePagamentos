@@ -1,4 +1,4 @@
-# Sistema de Sorteio - Guia de Uso
+# Sistema de Sorteio - Guia de Uso 📲
 
 Bem-vindo ao Sistema de Sorteio! Este é um programa simples que permite escolher aleatoriamente entre diferentes categorias, como nomes femininos, nomes masculinos e nomes de animais.
 Siga as etapas abaixo para começar:
