@@ -8,21 +8,19 @@ class Raffle() {
     val database = Database()
     fun raffleNameFemale(){
         val namesFemale = database.listOfFemaleNames
-        val randomIndex = Random.nextInt(namesFemale.size)
-        val nomeSorteado = namesFemale[randomIndex]
-        println(view.displayDrawnNameFemale(nomeSorteado))
+        println(view.displayDrawnNameFemale(raffle(namesFemale)))
     }
     fun raffleNameMale(){
         val namesMale = database.listOfMaleNames
-        val randomIndex = Random.nextInt(namesMale.size)
-        val nomeSorteado = namesMale[randomIndex]
-        println(view.displayDrawnNameMale(nomeSorteado))
+        println(view.displayDrawnNameMale(raffle(namesMale)))
     }
     fun raffleAnimal(){
         val nameAnimal = database.animalList
-        val randomIndex = Random.nextInt(nameAnimal.size)
-        val nomeSorteado = nameAnimal[randomIndex]
-        println(view.displayDrawnNameAnimal(nomeSorteado))
+        println(view.displayDrawnNameAnimal(raffle(nameAnimal)))
+    }
+    private fun raffle(names: ArrayList<String> = arrayListOf<String>()): String {
+        val randomIndex = Random.nextInt(names.size)
+        return names[randomIndex]
     }
 
 }
