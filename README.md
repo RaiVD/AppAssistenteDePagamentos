@@ -56,4 +56,4 @@ Ana Caroline De Souza Lisboa
 
 ---
 
-E lembre-se... Se as dúvidas para escolher um nome persistirem, esse sorteador deverá ser consultado!
+E lembre-se... Se as dúvidas para escolher um nome persistirem, esse sorteador deverá ser consultado!😉
