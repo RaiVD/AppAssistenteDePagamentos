@@ -33,6 +33,27 @@ Siga as etapas abaixo para começar:
 
 - Divirta-se explorando as diferentes categorias de sorteio e vendo os resultados aleatórios!
 
+## Linguagem de uso: **Kotlin**
+Um trecho de código escrito em Kotlin:
+~~~kotlin
+fun raffleNameFemale(){
+   val namesFemale = database.listOfFemaleNames
+   println(view.displayDrawnNameFemale(raffle(namesFemale)))
+}
+~~~
+### **Pessoas Autoras**
+Raissa Vicente Dias
+* [GitHub](https://github.com/RaiVD)
+* [Linkedin](https://www.linkedin.com/mwlite/in/raissa-vicente-86a3b2210)
+
+Amanda Souza dos Santos
+* [GitHub](https://github.com/AmandaSantos11?tab=repositories)
+* [Linkedin](https://www.linkedin.com/in/amanda-souza-dos-santos-645410205/)
+
+Ana Caroline De Souza Lisboa
+* [GitHub](https://github.com/Ana-dev19?tab=repositories)
+* [Linkedin](https://www.linkedin.com/in/ana-caroline-lisboa-583503217)
+
 ---
 
 E lembre-se... Se as dúvidas para escolher um nome persistirem, esse sorteador deverá ser consultado!
